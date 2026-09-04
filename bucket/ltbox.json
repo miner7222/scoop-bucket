@@ -1,18 +1,18 @@
 {
-    "version": "3.2.8",
+    "version": "3.2.9",
     "description": "Lenovo tablet firmware, root, and EDL toolkit",
     "homepage": "https://github.com/miner7222/LTBox",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/miner7222/LTBox/releases/download/v3.2.8/LTBox-win_x86_64-v3.2.8.zip",
-            "hash": "71c2d5e0c1fb6bcc9a80be9590d5981ac411c732247bf27ebc61aa007b89345e",
-            "extract_dir": "LTBox-win_x86_64-v3.2.8"
+            "url": "https://github.com/miner7222/LTBox/releases/download/v3.2.9/LTBox-win_x86_64-v3.2.9.zip",
+            "hash": "fa4f9370d580243b3140548eb16aeef7a6d5c11aa827d4311326efb813d9cacb",
+            "extract_dir": "LTBox-win_x86_64-v3.2.9"
         },
         "arm64": {
-            "url": "https://github.com/miner7222/LTBox/releases/download/v3.2.8/LTBox-win_arm64-v3.2.8.zip",
-            "hash": "7869faa56e4f01f9ce0035e3084a63bc302f8e3c035f2277351f4fac0aa6bdb9",
-            "extract_dir": "LTBox-win_arm64-v3.2.8"
+            "url": "https://github.com/miner7222/LTBox/releases/download/v3.2.9/LTBox-win_arm64-v3.2.9.zip",
+            "hash": "6bc02823ae69cf3462b6b9191c68364c5b3f233a9c94d9522600503729096fb8",
+            "extract_dir": "LTBox-win_arm64-v3.2.9"
         }
     },
     "pre_install": "Set-Content -LiteralPath \"$dir\\ltbox.install-source\" -Value 'scoop' -NoNewline",
